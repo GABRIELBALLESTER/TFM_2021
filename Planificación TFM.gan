@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="BALLESTER_LOZANO_TFM" company="UOC" webLink="http://" view-date="2021-03-30" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.11" locale="es">
+    <description>
+        <![CDATA[Este proyecto está diseñado a modo de presentación del TFM del Alumno Gabriel Fernando Ballester Lozano de la Universitat Oberta de Catalunya.]]>
+    </description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="166" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="64" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="64" order="2"/>
+        <option id="taskLabelUp" value="name"/>
+        <option id="taskLabelDown" value="taskDates"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="209" order="0"/>
+        <field id="1" name="Función" width="85" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="51" name="Actividades de ajuste" color="#8cb6ce" meeting="false" start="2021-04-02" duration="10" complete="0" thirdDate="2020-10-13" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Reajuste de posibles errores y desviaciones de la programación establecida]]>
+            </notes>
+        </task>
+        <task id="48" name="Análisis comparativo 2" color="#8cb6ce" meeting="true" start="2021-03-25" duration="0" complete="0" thirdDate="2020-09-30" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Diseño e implementación de la metodología de anásisis comparativo entre los diferentes métodos. ]]>
+            </notes>
+        </task>
+        <task id="54" name="Presentación adecuada de los resultados" color="#8cb6ce" meeting="false" start="2021-04-27" duration="10" complete="0" thirdDate="2020-11-03" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Análisis descriptivo de los resultados obtenidos y representaciones gráficas de los mismos]]>
+            </notes>
+        </task>
+        <task id="37" name="Análisis comparativo 1" color="#8cb6ce" meeting="true" start="2021-03-23" duration="0" complete="6" thirdDate="2020-09-30" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Diseño e implementación de la metodología de anásisis comparativo entre los diferentes métodos. ]]>
+            </notes>
+        </task>
+        <task id="38" name="Instalación y uso de diferentes detectores" color="#8cb6ce" meeting="false" start="2021-03-11" duration="10" complete="0" thirdDate="2020-10-07" thirdDate-constraint="0" expand="true"/>
+        <task id="43" name="Descarga y puesta a punto de los sets" color="#8cb6ce" meeting="false" start="2021-03-01" duration="6" complete="75" thirdDate="2020-10-23" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Gabriel Ballester" function="Default:1" contacts="gabinando@uoc.edu" phone="678735529"/>
+    </resources>
+    <allocations/>
+    <vacations>
+        <vacation start="2020-11-20" end="2020-11-23" resourceid="0"/>
+    </vacations>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
